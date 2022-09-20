@@ -94,6 +94,10 @@ export function _getRedirectUrl(
     }
   }
 
+  // TODOPRY: delete
+  console.log('line login!')
+  console.log(params)
+
   if (auth.tenantId) {
     params.tid = auth.tenantId;
   }
